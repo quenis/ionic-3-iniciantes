@@ -21,6 +21,13 @@ $ ionic serve --lab
 
 ### Deployment
 
+If the error saying that you are missing the ionic-scripts dependencies occurs, execute these commands:
+
+```
+npm cache clean --force
+npm install @ionic/app-scripts@latest
+```
+
 Android:
 ```
 $ ionic cordova build android

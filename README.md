@@ -55,7 +55,7 @@ Habilitar a depuração USB e o modo de desenvolvedor pode variar entre os dispo
 
 Para executar seu aplicativo, execute esses passos:
 
-1. Execute uma compilação de produção do seu aplicativo com **ionic cordova build ios --prod**
+1. Execute uma compilação de produção do seu aplicativo com **$ ionic cordova build ios --prod**
 2. Abra o arquivo **.xcodeproj** em **platforms/ios/** no Xcode
 3. Conecte seu telefone via USB e selecione-o como destino de execução
 4. Clique no botão de reprodução no Xcode para tentar executar seu aplicativo

@@ -33,7 +33,7 @@ npm install @ionic/app-scripts@latest
 ```
 
 
-Android:
+**Android:**
 
 *Pré-requisitos*
 
@@ -45,7 +45,7 @@ Para executar seu aplicativo, tudo o que você precisa fazer é ativar a depura�
 Habilitar a depuração USB e o modo de desenvolvedor pode variar entre os dispositivos, mas é fácil procurar em uma pesquisa do Google. Você também pode fazer o download da [Ativação de opções de desenvolvedor no dispositivo nos documentos do Android](https://developer.android.com/studio/run/device#developer-device-options) .
 
 
-iOS:
+**iOS**:
 
 *Pré-requisitos*
 

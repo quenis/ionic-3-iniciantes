@@ -34,7 +34,7 @@ npm install @ionic/app-scripts@latest
 
 
 Android:
-```
+
 *Pré-requisitos*
 
 * [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)
@@ -43,10 +43,10 @@ Android:
 Para executar seu aplicativo, tudo o que você precisa fazer é ativar a depuração USB e o modo de desenvolvedor no seu dispositivo Android e, em seguida, executar o comando **$ ionic cordova run android --device** a partir da linha de comando.
 
 Habilitar a depuração USB e o modo de desenvolvedor pode variar entre os dispositivos, mas é fácil procurar em uma pesquisa do Google. Você também pode fazer o download da [Ativação de opções de desenvolvedor no dispositivo nos documentos do Android](https://developer.android.com/studio/run/device#developer-device-options) .
-```
+
 
 iOS:
-```
+
 *Pré-requisitos*
 
 * Xcode 7 ou Superior
@@ -59,4 +59,3 @@ Para executar seu aplicativo, execute esses passos:
 2. Abra o arquivo .xcodeproj em plataformas / ios / no Xcode
 3. Conecte seu telefone via USB e selecione-o como destino de execução
 4. Clique no botão de reprodução no Xcode para tentar executar seu aplicativo
-```

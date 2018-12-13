@@ -1,39 +1,62 @@
-## Getting Started
+## Começando
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Essas instruções farão com que você tenha uma cópia do projeto em execução na sua máquina local para fins de desenvolvimento e teste. Veja a implantação de notas sobre como implantar o projeto em um sistema ativo.
 
-### Prerequisites
+### Pré-requisitos
 
 * [Node.js](https://nodejs.org)
 
-* Ionic and Cordova:
+* Ionic e Cordova:
 ```
-$ npm install -g cordova ionic
-```
-
-### Installing
-
-```
-$ git clone https://github.com/fortDev/ionic3-angular4-basic-app-login.git 
-$ cd ionic3-angular4-basic-app-login
-$ ionic serve --lab
+$ npm install -g ionic cordova
 ```
 
-### Deployment
+### Instalando
 
-If the error saying that you are missing the ionic-scripts dependencies occurs, execute these commands:
+```
+$ git clone http://git.cercomp.ufg.br/mobile-cs/cs_candidato.git (Clona o projeto)
+$ cd cs_candidato (Navega até o projeto)
+$ npm install (Instala as dependências do projeto)
+$ ionic serve (Roda o aplicativo em um servidor de aplicação local do ionic na porta 8100)
+```
+
+### Desenvolvimento
+
+Servidor Web do Ionic:
+
+Caso ocorra um erro ao você executar o comando ionic serve dizendo que falta a dependência ionic-scripts,
+execute o seguinte comando:
 
 ```
 npm cache clean --force
 npm install @ionic/app-scripts@latest
 ```
 
+
 Android:
 ```
-$ ionic cordova build android
+*Pré-requisitos*
+
+* [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)
+* [Android Studio](https://developer.android.com/studio/index.html)
+
+Para executar seu aplicativo, tudo o que você precisa fazer é ativar a depuração USB e o modo de desenvolvedor no seu dispositivo Android e, em seguida, executar o comando **$ ionic cordova run android --device** a partir da linha de comando.
+
+Habilitar a depuração USB e o modo de desenvolvedor pode variar entre os dispositivos, mas é fácil procurar em uma pesquisa do Google. Você também pode fazer o download da [Ativação de opções de desenvolvedor no dispositivo nos documentos do Android](https://developer.android.com/studio/run/device#developer-device-options) .
 ```
 
 iOS:
 ```
-$ ionic cordova build ios
+*Pré-requisitos*
+
+* Xcode 7 ou Superior
+* iOS 9
+* Um ID da Apple gratuito ou uma conta de desenvolvedor paga da Apple
+
+Para executar seu aplicativo, execute esses passos:
+
+1. Execute uma compilação de produção do seu aplicativo com ios cordova build ios --prod
+2. Abra o arquivo .xcodeproj em plataformas / ios / no Xcode
+3. Conecte seu telefone via USB e selecione-o como destino de execução
+4. Clique no botão de reprodução no Xcode para tentar executar seu aplicativo
 ```

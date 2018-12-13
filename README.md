@@ -14,12 +14,19 @@ $ npm install -g cordova ionic
 ### Installing
 
 ```
-$ git clone https://github.com/fortDev/ionic3-angular4-basic-app-login.git
+$ git clone https://github.com/fortDev/ionic3-angular4-basic-app-login.git 
 $ cd ionic3-angular4-basic-app-login
 $ ionic serve --lab
 ```
 
 ### Deployment
+
+If the error saying that you are missing the ionic-scripts dependencies occurs, execute these commands:
+
+```
+npm cache clean --force
+npm install @ionic/app-scripts@latest
+```
 
 Android:
 ```

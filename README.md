@@ -24,8 +24,7 @@ $ ionic serve (Roda o aplicativo em um servidor de aplicação local do ionic na
 
 Servidor Web do Ionic:
 
-Caso ocorra um erro ao você executar o comando ionic serve dizendo que falta a dependência ionic-scripts,
-execute o seguinte comando:
+Caso ocorra um erro ao você executar o comando **$ ionic serve** dizendo que falta a dependência **ionic-scripts**, execute o seguinte comando:
 
 ```
 npm cache clean --force

@@ -1,27 +1,32 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+## Getting Started
 
-## How to use this template
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+### Prerequisites
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+* [Node.js](https://nodejs.org)
 
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
+* Ionic and Cordova:
+```
+$ npm install -g cordova ionic
 ```
 
-Then, to run it, cd into `myTabs` and run:
+### Installing
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+```
+$ git clone https://github.com/fortDev/ionic3-angular4-basic-app-login.git
+$ cd ionic3-angular4-basic-app-login
+$ ionic serve --lab
 ```
 
-Substitute ios for android if not on a Mac.
+### Deployment
 
-# ionic-3-para-iniciantes
+Android:
+```
+$ ionic cordova build android
+```
+
+iOS:
+```
+$ ionic cordova build ios
+```

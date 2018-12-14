@@ -14,7 +14,7 @@ $ npm install -g ionic cordova
 ### Instalando
 
 ```
-$ git clone http://git.cercomp.ufg.br/mobile-cs/cs_candidato.git (Clona o projeto)
+$ git clone https://github.com/quenis/ionic-3-iniciantes.git (Clona o projeto)
 $ cd cs_candidato (Navega até o projeto)
 $ npm install (Instala as dependências do projeto)
 $ ionic serve (Roda o aplicativo em um servidor de aplicação local do ionic na porta 8100)
